@@ -1,3 +1,25 @@
-theme: jekyll-theme-minimal
-title: App Home
-description: This is a budgeting app
+title: Budget Buddy
+description: A private, local-first budgeting app for tracking spending, subscriptions, trends, and budget summaries.
+theme: minima
+
+author:
+  name: Budget Buddy Support
+  email: your-email@example.com
+
+url: "https://colton432.github.io"
+baseurl: "/budget-buddy-site"
+
+app:
+  name: Budget Buddy
+  tagline: Track your spending privately on your device.
+  platform: iOS and Android
+  data_storage: Local device storage using shared_preferences
+  privacy: No cloud backend. No account required. No bank connection.
+
+navigation:
+  - title: Home
+    url: /
+  - title: Support
+    url: /support.html
+  - title: Privacy Policy
+    url: /privacy.html
